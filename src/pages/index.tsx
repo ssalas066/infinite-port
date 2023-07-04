@@ -9,7 +9,7 @@ export default function Home() {
       
     </Head>
     <main className=''>
-      Home
+      InfiniteVoid
     </main>
     </>
   )

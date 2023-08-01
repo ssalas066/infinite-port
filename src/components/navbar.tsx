@@ -9,6 +9,23 @@ const Navbar = () => {
     const [color, setColor] = useState('transparent')
     const [textColor, setTextColor] = useState('black')
 
+    const handleNav = () => {
+        setNav(!nav);
+    };
+
+    useEffect(()=> {
+        const changeColor = () => {
+            if(window.scrollY >= 90) {
+                setColor('')
+                setTextColor('')
+            } else {
+                setColor('transparent')
+                setTextColor('')
+            }
+        };
+        window.addEventListener('scroll', changeColor);
+    }, []);
+
     return (
         <header className='w-full px-32 py-8 font-medium'>
             <nav>

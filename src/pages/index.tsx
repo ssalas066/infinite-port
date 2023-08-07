@@ -2,15 +2,11 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <>
-    <Head>
+    <div className={styles.container}>
+      <Head>
       <title>InfiniteVoid Design</title>
-      <meta name='description' content='Building your vision' />
-      
+      <meta name='description' content='Infinite Solutions' />
     </Head>
-    <main className=''>
-      InfiniteVoid
-    </main>
-    </>
+    </div>
   )
 }

@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Hero from '@/components/hero';
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -7,6 +9,7 @@ export default function Home() {
       <title>InfiniteVoid Design</title>
       <meta name='description' content='Infinite Solutions' />
     </Head>
+    <Hero heading='I.V.D.' message='Infinite Solutions' />
     </div>
-  )
+  );
 }

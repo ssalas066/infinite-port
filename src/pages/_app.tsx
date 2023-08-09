@@ -6,8 +6,9 @@ import Navbar from '@/components/navbar'
 
 const jost = Jost({
   subsets: ['latin'],
+  weight: ['400', '700'],
   variable: '--font-jost'
-})
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

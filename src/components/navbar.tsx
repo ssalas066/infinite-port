@@ -2,9 +2,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+// import logo from '../../public/images/'
+import logo from '../../public/images/'
 
 const Navbar = () => {
 
+    // const void = require("../../public/images/voidLogo.jpg")
     const [nav, setNav] = useState(false)
     const [color, setColor] = useState('transparent')
     const [textColor, setTextColor] = useState('black')

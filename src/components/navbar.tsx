@@ -18,11 +18,11 @@ const Navbar = () => {
     useEffect(()=> {
         const changeColor = () => {
             if(window.scrollY >= 90) {
-                setColor('')
-                setTextColor('')
+                setColor('black')
+                setTextColor('white')
             } else {
                 setColor('transparent')
-                setTextColor('')
+                setTextColor('black')
             }
         };
         window.addEventListener('scroll', changeColor);
@@ -35,7 +35,7 @@ const Navbar = () => {
                     {/* <Image className=' block fill-current text-white h-15 w-15 mr-2 ml-2 lg:ml-10' src={} width={60} height={60} alt='logo'/> */}
                 </Link>
                 <ul style={{color: `${textColor}`}} className=' hidden sm:flex'>
-                    <li className=' p-4 no-underline hover:underline hover:text-purple-600 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>
+                    <li className=' p-4 no-underline hover:underline hover:text-sky-600 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>
                         <Link href='/'>Home</Link>
                     </li>
                     <li className=' p-4 no-underline hover:underline hover:text-slate-700 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>

@@ -19,13 +19,14 @@
 } */
 
 html {
-  background-color: #092C48;
+  /* background-color: #092C48; */
+  background-color: #E0E0E0;
   scroll-behavior: smooth;
   font-family: 'Jost', sans-serif;
 }
 
 .custom-img {
-  background-image: url('../../public/images/newLogo.jpg');
+  background-image: url('../../public/images/infinite-void-logo-v8-01.png');
   background-position: center;
   background-size: contain;
   /* padding: 2px; */
@@ -34,12 +35,13 @@ html {
 
 body {
   font-family: 'Jost', Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #092C48;
+  background-color: #E0E0E0;
+  /* background-color: #092C48; */
 }
 
 #bg {
   background-position: center;
-  background-image: url('../../public/images/newLogo.jpg');
+  background-image: url('../../public/images/infinite-void-logo-v8-01.png');
   background-size: contain;
   z-index: -999;
 }

@@ -22,6 +22,8 @@ module.exports = {
       backgroundColor: {
         'page': "#e2e8f0",
         'void': "#092C48",
+        'plat': "#E0E0E0",
+        'night': "#141414",
       },
       fontFamily: {
         // sans: [`var(--font-jost)`, ...fontFamily.sans],

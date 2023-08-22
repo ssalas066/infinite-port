@@ -6,9 +6,9 @@ const Layout = ({ children }: PropsWithChildren) => {
     return (
         <>
         <Navbar />
-        <div className=' bg-plat'>
+        <div className=' bg-raisin-black'>
             {/* <div className=' bg-hero bg-no-repeat bg-contain bg-fixed bg-center' id='bg'> */}
-            <div className=' bg-hero bg-no-repeat bg-contain bg-fixed bg-center'>
+            <div className=' bg-hero bg-no-repeat bg-contain bg-fixed bg-center' id='bg'>
 
                 {children}
             </div>

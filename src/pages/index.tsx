@@ -9,9 +9,9 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
       <title>Infinite Void Design</title>
-      <meta name='description' content='Infinite Solutions' />
+      <meta name='description' content='Infinite Void' />
     </Head>
-    <Hero heading='I.V.D.' message='Infinite Solutions' />
+    <Hero heading='I.V.' message='Infinite Void' />
     <About />
     <Projects />
     </div>

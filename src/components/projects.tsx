@@ -12,7 +12,7 @@ import temp from '../../public/images/newLogo.jpg';
 
 export default function Projects() {
     return (
-        <div className={styles.container}>
+        <div id='projects' className={styles.container}>
             <div className=' flex min-h-screen flex-col items-center justify-between p-4 lg:p-0'>
                 <div className=' items-center grid grid-rows-4 lg:grid-rows-2 lg:grid-cols-6 lg:gap-x-28 lg:gap-y-20'>
                     

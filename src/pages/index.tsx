@@ -11,7 +11,7 @@ export default function Home() {
       <title>Infinite Void Design</title>
       <meta name='description' content='Infinite Void' />
     </Head>
-    <Hero heading='I.V.' message='Infinite Void' />
+    <Hero heading='I.V.' message='Collaborative designs' />
     <About />
     <Projects />
     </div>

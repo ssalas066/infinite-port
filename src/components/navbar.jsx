@@ -38,14 +38,14 @@ const Navbar = () => {
                     <li className=' p-4 no-underline hover:underline hover:text-sky-600 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li className=' p-4 no-underline hover:underline hover:text-slate-700 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>
-                        <Link href='../about'>About Me</Link>
+                    <li onClick={handleNav} className=' p-4 no-underline hover:underline hover:text-slate-700 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>
+                        <Link href='#about'>About Me</Link>
                         </li>
                         <li className=' p-4 no-underline hover:underline hover:text-slate-700 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>
-                        <Link href='../projects'>Projects</Link>
+                        <Link href='#projects'>Projects</Link>
                         </li>
                         <li className=' p-4 no-underline hover:underline hover:text-slate-700 hover:bg-slate-500/20 rounded-md text-xl font-semibold'>
-                        <Link href='../contact'>Reach Out</Link>
+                        <Link href='#contact'>Reach Out</Link>
                         </li>
                 </ul>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
                             <Link href='#projects'>Projects</Link>
                         </li>
                         <li onClick={handleNav} className=' p-4 text-4xl'>
-                            <Link href='/'>Reach Out</Link>
+                            <Link href='#contact'>Reach Out</Link>
                         </li>
                     </ul>
                 </div>

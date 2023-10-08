@@ -5,8 +5,8 @@ import temp from '../../public/images/newLogo.jpg';
 
 export default function About() {
     return (
-        <div id='about' className={styles.container}>
-            <div className=' flex min-h-screen flex-col items-center justify-between p-2 '>
+        <div className={styles.container}>
+            <div id='about' className=' flex min-h-screen flex-col items-center justify-between p-2 '>
                 <div className=' mx-auto mt-5 lg:mt-0 max-w-7xl px-6 lg:px-2 grid grid-cols-1'>
                     <h1 className=' text-center text-3xl lg:text-4xl col-span-1 mb-5 lg:mb-10 font-bold tracking-tight lg:leading-8 text-white'>
                         About Me

@@ -7,6 +7,7 @@ const Footer = () => {
                 <li>
                     {/* <Link>
                     </Link> */}
+                    <h1 className=' text-justify'></h1>
                 </li>
                 <li>
                     {/* <Link>

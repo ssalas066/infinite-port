@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 const Spacer = () => {
     return (
-        <div className='bg-night'></div>
+        <div className='bg-cool-gray'></div>
     )
 }
 

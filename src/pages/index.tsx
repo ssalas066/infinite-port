@@ -3,6 +3,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Projects from '@/components/projects';
 import About from '@/components/about';
+import Contact from '@/components/contact';
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
       <title>Infinite Void Design</title>
       <meta name='description' content='Infinite Void' />
     </Head>
-    <Hero heading='I.V.' message='Collaborative designs' />
+    <Hero heading='' message='Collaborative designs' />
     <About />
     <Projects />
+    <Contact />
     </div>
   );
 }

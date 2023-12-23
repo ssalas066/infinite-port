@@ -44,6 +44,7 @@ body {
 #bg {
   background-position: center;
   background-image: url('../../public/images/latest-logo-40.png');
+  /* background-image: url('../../public/images/purple-bg.jpg'); */
   background-size: contain;
   z-index: -999;
 }

@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import Projects from '@/components/projects';
 import About from '@/components/about';
 import Contact from '@/components/contact';
+import Projectstest from '@/components/projectstest';
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
     </Head>
     <Hero heading='' message='Collaborative designs' />
     <About />
-    <Projects />
+    {/* <Projects /> */}
+    <Projectstest />
     <Contact />
     </div>
   );

@@ -16,7 +16,7 @@
 export default function Contact() {
 
   return (
-  <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+  <footer className=" daisy-footer daisy-footer-center p-10 bg-purple-600 text-base-content rounded">
     <nav className="grid grid-flow-col gap-4">
       <a className="link link-hover">About us</a> 
       <a className="link link-hover">Contact</a> 
